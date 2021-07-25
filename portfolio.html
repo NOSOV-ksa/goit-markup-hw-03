@@ -14,33 +14,37 @@
 
 <body  class="main">
     <header class="page-header">
-        <nav class="container">
+        <nav class="head-nav container">
 <!-- Логотип -->
-            <a href="/" class="logo"><span class="web">Web</span>Studio</a>
+            <div class="head">
+             <a href="/" class="logo"><span class="web">Web</span>Studio</a>
 <!-- Навигация -->
             <ul class="nav">
-                <li><a href="./index.html" class="nav-link studio pointer">Студия</a></li>
-                <li><a href="portfolio.html" class="nav-link portfolio pointer">Портфолио</a></li>
-                <li><a href="" class="nav-link communications pointer">Контакты</a></li>
-            </ul>
+                <li class="item"><a href="./index.html" class="nav-link studio pointer">Студия</a></li>
+                <li class="item"><a href="portfolio.html" class="nav-link portfolio pointer">Портфолио</a></li>
+                <li class="item"><a href="" class="nav-link communications pointer">Контакты</a></li>
+            </ul>   
+            </div>
+            
 
 <!-- Контакты -->
             <ul class="contact">
-                <li><a href="mailto:info@devstudio.com" title="our email" class="mail pointer">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" title="our phone" class="tel pointer">+38 096 111 11 11<a/></li>
+                <li class="item"><a href="mailto:info@devstudio.com" title="our email" class="mail pointer">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" title="our phone" class="tel pointer">+38 096 111 11 11<a/></li>
             </ul>
         </nav>
     </header>
-    <main class="page">
-        <section class="option container"> 
+    <main>
+        <div  class="page">
+           <section class="option container"> 
         <!--Фильтр портфолио  -->
         <div class="">
             <ul class="btn">
-                <li><button type="button" class="select pointer">все</button><a href=""></a></li>
-                <li><button type="button" class="select pointer">веб-<span class="low">сайты</span></button><a href="" class=""></a></li>
-                <li><button type="button" class="select pointer">приложения</button><a href="" class=""></a></li>
-                <li><button type="button" class="select pointer">дизайн</button><a href="" class=""></a></li>
-                <li><button type="button" class="select pointer">маркетинг</button><a href="" class=""></a></li>
+                <li class="btn-select"><button type="button" class="select pointer">все</button><a href=""></a></li>
+                <li class="btn-select"><button type="button" class="select pointer">веб-<span class="low">сайты</span></button><a href="" class=""></a></li>
+                <li class="btn-select"><button type="button" class="select pointer">приложения</button><a href="" class=""></a></li>
+                <li class="btn-select"><button type="button" class="select pointer">дизайн</button><a href="" class=""></a></li>
+                <li class="btn-select"><button type="button" class="select pointer">маркетинг</button><a href="" class=""></a></li>
             </ul>
         </div>
             
@@ -119,7 +123,9 @@
                     </a>                    
                 </li>
             </ul>
-        </section>
+        </section> 
+        </div>
+        
     </main>
     <footer>
         <div class="container">
