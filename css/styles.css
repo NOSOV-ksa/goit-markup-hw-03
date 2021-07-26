@@ -9,40 +9,57 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 /* Остальной код */
 body {
-    padding: 0px;
-    margin: 0px;
+    /* padding: 0px;
+    margin: 0px; */
     font-family: Roboto, sans-serif;
 }
 
-/* Хедр */
-
-/* .pege-header {
-    background-color: #ffffff;
-} */
-.head-nav {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #ECECEC;
+a {
+    text-decoration: none;
 }
+
+ul {
+    list-style: none;
+}
+ h2 {
+     margin: 0px;
+     padding: 0px;
+ }
+
 .container {
     margin: 0 auto;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     /* background-color: none;  */
-    border: 1px solid red;
-    
 }
 
+
 .section {
-    padding: 94px 0px;
+    padding: 0px;
     margin: 0px;
+    border: 1px solid red;
 }
+
+
+/* Хедр */
+
+/* .pege-header {
+    background-color: #ffffff;
+} */
+
+.head-nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+}
+
+
 
 /* Хедр-Логотип */
 .logo {
@@ -139,12 +156,172 @@ body {
     cursor: pointer;
 }
 
-/* Футер */
-footer {
+
+/* Home page */
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
     background-color: var(--section-color);
+    color: #ffffff;
 }
 
+
+/* чем */
+.make {
+    margin-top: 94px;
+    margin-bottom: 94px;
+
+/*     
+     margin-right: auto;
+     margin-left: auto; */
+}
+
+.about-container {
+    /* margin-top: 94px; */
+    margin-bottom: 94px;
+}
+
+.about {
+    display: flex;
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* .article {
+    width: 270px;
+} */
+
+.report {
+    /* padding-bottom: 94px; */
+}
+
+.text-report {
+
+    /* margin-bottom: 50px; */
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 00.03em;
+    color: var(--primary-text-color);
+}
+
+.photo {
+    margin-top: 50px;
+}
+
+.photo-report {
+    
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+        
+    text-align: center;
+}
+
+.about .article + .article {
+    margin-left: 30px;
+}
+
+.team {
+    background-color: #F5F4FA;
+    margin-top: 94px;
+
+}
+
+.team-box {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-title {
+    margin: 0px;
+    padding: 0px;
+    
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.photo {
+
+}
+
+.team-list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    
+    margin-right: 30px;
+}
+
+.team-item {
+    /* margin-top: 94px; */
+}
+
+.team-list .team-item + .team-item {
+    margin-left: 30px;
+}
+
+.portrait {
+
+}
+
+.team-image {
+
+}
+
+.name {
+    background-color: #ffffff;
+
+}
+
+
+.team-subtitles {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.16;
+    letter-spacing: 00.03em;
+    text-align: center;
+}
+
+.team-text {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 30px;
+
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+
+
+
 /* Футер логотип */
+
+
+.footer {
+    background-color: var(--section-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
 footer .second {
     color: #FFFFFF;
     font-family: Raleway, sans-serif;
@@ -156,14 +333,14 @@ footer .second {
 }
 
 .footer-logo {
-    padding-top: 60px;
-    padding-bottom: 20px;
+   
+    margin-bottom: 20px;
 }
 
 .area {
     margin: 0px;
     padding: 0px;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 
     font-family: Roboto, sans-serif;
     color: #FFFFFF;
@@ -188,41 +365,23 @@ color: rgba(255, 255,255, 0.6);
     padding-bottom: 9px;
 }
 
-.footer-contact {
+.footer-contact .tell {
     margin: 0px;
     padding: 0px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 }
 
-a {
-    text-decoration: none;
-}
 
-ul {
-    list-style: none;
-}
 
-/* Home page */
-.feature {
-    text-align: center;
-    background-color: var(--section-color);
-    color: #ffffff;
-}
 
-.about {
-    display: flex;
 
-    margin: 0px;
-    padding: 0px;
-}
+/* ПОРТФОЛИО */
 
-/* .article {
-    width: 270px;
-} */
 
-.about .article + .article {
-    margin-left: 30px;
-}
+
+
+
+
 
 .button {
     background-color: var(--secondr-text-color);
@@ -235,15 +394,15 @@ ul {
     text-align: center;
 }
 
-.pin {
+/* .pin {
     padding-bottom: 200px;
-}
+} */
 
 .solution {
     margin: 0px;
     bottom: 0px;
     margin-bottom: 30px;
-    padding-top: 200px;
+
 
     font-weight: 900;
     font-size: 44px;
@@ -269,28 +428,6 @@ ul {
 
 
 
-.report {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 50px;
-
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 00.03em;
-    color: var(--primary-text-color);
-}
-
-.photo-report {
-    display: flex;
-
-    margin: 0px;
-    padding: 0px;
-    
-
-    text-align: center;
-}
 
 .case {
     margin: 0px;
@@ -312,64 +449,6 @@ ul {
     line-height: 1.87;
 }
 
-.team {
-    background-color: #F5F4FA;
-    
-    
-}
-
-.team-title {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 50px;
-    text-align: center;
-
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-}
-
-.team-list {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    
-    margin-right: 30px;
-   
-}
-
-
-.team-list .team-item + .team-item {
-    margin-left: 30px;
-}
-
-
-.team-subtitles {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 10px;
-
-    color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.16;
-    letter-spacing: 00.03em;
-    text-align: center;
-}
-
-.team-text {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 30px;
-
-    color: var(--title-text-color);
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    text-align: center;
-}
 
 /* Страница портфолио */
 
