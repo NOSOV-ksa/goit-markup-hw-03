@@ -9,11 +9,12 @@
         <link href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">  
         <link rel="stylesheet" href="./css/styles.css"> 
     </head>
-    <!--qwerty-->
+    
     <body class="list">
-<!-- Шапка страницы -->
+
     <header>
-        <div class="container">
+        <section class="section">
+           <div class="container">
             <nav class="head-nav">
                 <div class="head">
                     <a href="/" class="logo"><span class="web">Web</span>Studio</a>
@@ -24,25 +25,26 @@
                     </ul>
                 </div>
                     <ul class="contact">
-                        <li class="item"><a href="mailto:info@devstudio.com" title="our email" class="mail pointer">info@devstudio.com</a></li>
-                        <li class="item"><a href="tel:+380961111111" title="our phone" class="tel pointer">+38 096 111 11 11</a></li>
+                        <li class="item"><a class="mail pointer" href="mailto:info@devstudio.com" title="our email" >info@devstudio.com</a></li>
+                        <li class="item"><a class="tel pointer" href="tel:+380961111111" title="our phone" >+38 096 111 11 11</a></li>
                     </ul>
             </nav>
-        </div>
+        </div> 
+        </section>
     </header>
-
-         <!-- Портфолио -->
-
+    
     <main>
 
-        <section class="section">
-            <div class="hero">
+        <section class="section hero">
+            <div class="">
                 <h1 class="solution">еффективные решения <br /> для вашего бизнеса</h1>
                     <div class="pin">
                         <button type="button" class="button pointer">Заказать услугу</button>
                     </div>
             </div>
-            
+        </section>  
+
+        <section class="section">
             <div class="container make">
                 <div class="about-container">
                     <ul class="about">
@@ -76,9 +78,11 @@
                     </div>
                 </div>
             </div>
+        </section>
 
+        <section class="section team">
             <div class="container">
-                <div class="team">
+                <div class="">
                     <div class="team-box">
                         <h2 class="team-title">Наша команда</h2>
                         <div class="photo">
@@ -126,13 +130,13 @@
                     
                 </div>
             </div>
-        
         </section>
     
     </main>
-<!-- Подвал -->
+
     <footer>
-        <div class="container footer">
+        <section class="section footer">
+            <div class="container ">
             <div class="footer-logo">
                 <a href="/" class="logo">
                     <span class="web">Web</span>
@@ -151,6 +155,9 @@
                 </li>
             </ul>  
         </div>
+        </section>
+        
     </footer>
+
     </body>
 </html>
