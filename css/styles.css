@@ -14,8 +14,8 @@
 
 
 body {
-    /* padding: 0px;
-    margin: 0px; */
+    padding: 0px;
+    margin: 0px;
     font-family: Roboto, sans-serif;
 }
 
@@ -69,7 +69,7 @@ ul {
     margin: 0px;
     padding: 0px;
     margin-right: 93px;
-    margin-top: 24px;
+    /* margin-top: 24px; */
 
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -85,15 +85,20 @@ ul {
 }
 
 .nav {
+    display: flex;
+    align-items: center;
+
     margin: 0px;
     padding: 0px;
     /* margin-top: 32px; */
-    display: flex;
+    
     
     
 }
 .head {
     display: flex;
+    padding: 24px 0px;
+    /* padding: 24px 0px; */
 }
 
 /* .nav li:not(:last-child) {
@@ -103,8 +108,6 @@ ul {
 
 .nav .nav-link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .nav .item + .item {
@@ -169,14 +172,15 @@ ul {
     color: #ffffff;
 }
 
-.make {
-    margin-top: 94px;
-    margin-bottom: 94px;
-}
+/* .make {
+    padding-top: 94px;
+    padding-bottom: 94px;
+        
+} */
 
 .about-container {
-    /* margin-top: 94px; */
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .about {
@@ -184,6 +188,10 @@ ul {
     
     margin: 0px;
     padding: 0px;
+}
+
+.report {
+    padding-bottom: 94px;
 }
 
 .text-report {
@@ -214,12 +222,14 @@ ul {
 
 .team {
     background-color: #F5F4FA;
-}
-
-.team-box {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+/* .team-box {
+    padding-top: 94px;
+    padding-bottom: 94px;
+} */
 
 .team-title {
     margin: 0px;
@@ -290,15 +300,11 @@ ul {
 
 
 /* Футер логотип */
-
-
-.footer {
+footer {
     background-color: var(--section-color);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-
-
 
 footer .second {
     color: #FFFFFF;
@@ -329,6 +335,8 @@ footer .second {
 }
 
 /* Футер контакт */
+
+
 footer .contact {
 font-family: Roboto, sans-serif;
 font-size: 14px;
@@ -355,7 +363,7 @@ color: rgba(255, 255,255, 0.6);
 
 /*************** ПОРТФОЛИО ****************/
 .project {
-    padding: 94px 0px;
+    padding: 94px 15px;
 }
 
 .btn-group {
