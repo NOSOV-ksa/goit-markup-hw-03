@@ -174,12 +174,15 @@ section {
     color: #ffffff;
 }
 
-.about {
-    display: flex;
-    
+.skil {    
     margin: 0px;
     padding: 94px 0px;
 }
+
+.about {
+    display: flex;
+}
+
 
 .report {
     padding-bottom: 94px;
